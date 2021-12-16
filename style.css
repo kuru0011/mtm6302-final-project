@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;700&display=swap');
+
+/* styling the index page */
+body{
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+}
+
+.date{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+}
+
+.info{
+    font-family: 'Montserrat', sans-serif;}
+
+h2,h3, p{
+    margin: 0.7rem;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.moredata{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.moredata p {
+    margin-left: 1rem;
+    padding: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.more_btn {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;    padding: 0.5rem 3rem; 
+    background-color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.more_btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.more-data-position{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.settings-position{
+    position: fixed;
+    top: 0;
+    color:white;
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    width: 30%;
+}
+
+.settings-selection{
+    margin-top: 20%;
+    
+}
+.settings-style h6{
+    margin: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+.settings-btn{
+    padding: 0.5rem;
+}
+.settings-btn:hover{
+    color: white;
+    background-color: rgb(161, 172, 196);
+    cursor: pointer;
+}
+.inside-btn{
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    padding: 0; 
+    background-color: black;
+    color:white;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.inside-btn:hover{
+    color: white;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+    .date{
+        font-size: 1.25rem;
+    }
+
+    h2, h3, p{
+        margin: 1rem;
+    }
+
+    .moredata{
+        font-size: 1.25rem;
+    }
+}
+    
+@media screen and (min-width: 1100px) {
+
+    .date{
+        font-size: 1.5rem;
+    }
+
+    h2, h3, p{
+        margin: 1.25rem;
+    }
+
+    .moredata{
+        font-size: 1.5rem;
+    }
+}
+
